@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <link href="./stylesheets/aos.css" rel="stylesheet">
+    <script src="./javascript/aos.js"></script>
+
+    <link rel="stylesheet" href="./stylesheets/all.css">
+    <link rel="stylesheet" href="./stylesheets/Utilities.css">
+    <script src="./javascript/index.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="brand open-snas-extrabold">
+                    OncePark
+                </div>
+                <ul id="menu" class="navbar-list none">
+                    <li><a href="#section_Home" class="list-item">Home</a></li>
+                    <li><a href="#section_AboutUs" class="list-item">About Us</a></li>
+                    <li><a href="#section_Solution" class="list-item">Solution</a></li>
+                    <li><a href="#section_Plans" class="list-item">Plans</a></li>
+                    <li><a href="#section_Showcase" class="list-item">Showcase</a></li>
+                    <li>
+                        <button class="buy-btn list-item" style="margin-left: 200px;">
+                            <span><i class="bi bi-bag-heart-fill"></i> Buy Now</span>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section id="section_Home" class="section-wrap">
+        <div class="container section-inner-wrap p-relative d-flex align-center justify-content-center flex-direction-column">
+            <div class="row">
+                <div class="col-md-7 d-flex align-items-center justify-content-center">
+                    <div class="header-content d-flex align-items-center flex-direction-column">
+                        <h1 class="display-h1 open-snas-extrabold mb-24 d-inline-block p-relative">Leading Manufacturer of</h1>
+                        <h1 class="display-h1 open-snas-extrabold mb-24 d-inline-block p-relative">
+                            <span id="typing" class="noto-sans-black typing-effect blue">
+                                Access Control Gate.
+                            </span>
+                            <span class="type-blink"></span>
+                        </h1>
+                        <p class="noto-sans-light" style="font-size: 20px;">Enjoying a seamless parking experience.</p>
+                        <!-- FB~GITHUB -->
+                        <!-- <div class="pt-20 pb-20">
+                            <a href="https://github.com/nicof2e" class="social-link" target="_blank">
+                                <i class="bi bi-github"></i>
+                            </a><a href="#" class="social-link" target="_blank">
+                                <i class="bi bi-facebook"></i>
+                            </a>
+                        </div> -->
+                        <a class="btn-rgb" href="#section_Contact">
+                            <div class="btn-rgb-overlay"></div>
+                            <span>Contact Us</span>  
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-5 d-flex align-items-center justify-content-center">
+                    <img src="./images/parkinglot2.png" class="ani-to-left">
+                </div>
+                <div id="scrollcon" class="d-flex justify-content-center " style="position: fixed;bottom: 0;left: 0%;opacity: 0.3;">
+                    <div class="scrolldown" style="--color: skyblue">
+                        <div class="chevrons">
+                            <div class="chevrondown"></div>
+                            <div class="chevrondown"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="section_AboutUs" class="section-wrap" data-aos="fade-down">
+        <div class="container p-relative d-flex align-center justify-content-center">
+            <div class="row">
+                <div class="col-md-6 d-flex align-items-center justify-content-center">
+                    <img src="./images/team.png" class="ani-to-left">
+                </div>
+                <div class="col-md-6 d-flex align-items-center">
+                    <div class="header-content">
+                        <h4 class="grey ">OnesPark</h4>
+                        <h1 class="display-h1 noto-sans-black mb-24 d-inline-block p-relative blue">Taiwanese leading manufacturer</h1>
+                        <p class="noto-sans-light" style="font-size: 20px;">OncePark, with the team of experts in software development, circuit design, system integration, mechanical design, and production is well-equipped to meet all kinds of complex and difficult requirements.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="section_Solution" class="section-wrap power-color" data-aos="fade-up" data-aos-duration="3000">
+        <div class="container p-relative d-flex align-center justify-content-center flex-direction-column">
+            <h1 class="d-flex align-center justify-content-center pb-20 noto-sans-black">SOLUTIONS</h1>
+            <div class="row justify-content-center">
+                    <div class="col-md-3 solution-wrap1">
+                        <h3 class="blue open-snas-extrabold">Access Control Turnstile</h3>
+                        <p class="noto-sans-light" style="font-size: 18px;">To enhance the security efficiently, Goosafe provide variety of access control turnstile for different type of applications</p>
+                    </div>
+                    <div class="col-md-3 solution-wrap2">
+                        <h3 class="blue open-snas-extrabold">Parking System</h3>
+                        <p class="noto-sans-light" style="font-size: 18px;">The parking and management system is designed for different types of parking areas and can be customized for different payment methods.</p>
+                    </div>
+                    <div class="col-md-3 solution-wrap3">
+                        <h3 class="blue open-snas-extrabold">Customization & OEM</h3>
+                        <p class="noto-sans-light" style="font-size: 18px;">Not only provide customization service as cabinet, appearance modification or special application as airport, metro ..... We also have OEM options</p>
+                    </div>
+            </div>
+        </div>
+    </section>
+    <section id="section_Plans" class="section-wrap">
+        <div class="container p-relative d-flex align-center justify-content-center flex-direction-column" style="height: 100vh;">
+            <h1 class="d-flex align-center justify-content-center pb-20 noto-sans-black">Plans</h1>
+            <div class="row justify-content-center pt-20" style="width: 100%;">
+                <div class="col-md-3 Plans-wrap1" data-aos="fade-up" data-aos-duration="1500" data-aos-anchor-placement="top-center" data-aos-delay="0">
+                    <div>
+                        <h2 class="blue open-snas-extrabold">
+                            <i class="bi bi-1-circle" style="color:#FFF;font-size: 28px;"></i>
+                            Diagnosis
+                        </h2>
+                        <p class="noto-sans-light" style="font-size: 18px;">Understand your business and facility planning needs, and then plan the next steps.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 Plans-wrap2" data-aos="fade-up" data-aos-duration="1500" data-aos-anchor-placement="top-center" data-aos-delay="200">
+                    <h2 class="blue open-snas-extrabold">
+                        <i class="bi bi-2-circle" style="color:#FFF;font-size: 28px;"></i>
+                        Customization
+                    </h2>
+                    <p class="noto-sans-light" style="font-size: 18px;">In addition to our existing products, we also accept special requests and customizations.</p>
+                </div>
+                <div class="col-md-3 Plans-wrap3" data-aos="fade-up" data-aos-duration="1500" data-aos-anchor-placement="top-center" data-aos-delay="400">
+                    <h2 class="blue open-snas-extrabold">
+                        <i class="bi bi-3-circle" style="color:#FFF;font-size: 28px;"></i>
+                        Monitor
+                    </h2>
+                    <p class="noto-sans-light" style="font-size: 18px;">The most cost-effective license plate recognition parking management system, enabling remote and multi-task monitoring of parking lot status.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="section_Showcase" class="section-wrap">
+        <div class="container p-relative d-flex align-center justify-content-center flex-direction-column">
+            <h1 class="d-flex align-center justify-content-center pb-20 noto-sans-black">Showcase</h1>
+            <div class="row justify-content-center" style="width: 100%;" data-aos="flip-left">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img class="swiper-img" src="./images/sofa_logo.png"></div>
+                        <div class="swiper-slide"><img class="swiper-img" src="./images/logo2.png"></div>
+                        <div class="swiper-slide"><img class="swiper-img" src="./images/logo3.png"></div>
+                        <div class="swiper-slide"><img class="swiper-img" src="./images/logo4.png"></div>
+                        <div class="swiper-slide"><img class="swiper-img" src="./images/logo5.png"></div>
+                        <div class="swiper-slide"><img class="swiper-img" src="./images/logo6.png"></div>
+                        <div class="swiper-slide"><img class="swiper-img" src="./images/logo7.png"></div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
+<!-- offset-md-1 -->

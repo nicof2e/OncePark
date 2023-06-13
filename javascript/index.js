@@ -24,35 +24,24 @@ window.onload = function(){
     })();
 
     //輪播
-    const swiper = new Swiper('.swiper-container', {
-        effect: 'coverflow',
-        centeredSlides: true,
-        slidesPerView: 'auto',
-        loop: true,
+    
+// 起始的 slide 索引
+var initialSlideIndex = 2;
+    var mySwiper = new Swiper('.swiper-container', {
+        // loop: true,
+        slidesOffsetBefore: 0, // 設定 slide 與容器左側的間距為 0
         speed: 600,
-        autoplay: {
-            delay: 3000,
-            disableOnInteraction: false,
-        },
-        coverflowEffect: {
-            rotate: 0,
-            stretch: 0,
-            depth: 100,
-            modifier: 1,
-            slideShadows: true,
-        },
+        slidesPerView: 'auto',
+        loopedSlides: 0,
+        centeredSlides: true,
+        slideToClickedSlide: true,
+        spaceBetween: 30,
         pagination: {
             el: '.swiper-pagination',
-            clickable: true,
+            clickable: true
         },
-        breakpoints: {
-            768: {
-            slidesPerView: 3,
-            },
-            1024: {
-            slidesPerView: 4,
-            },
-        },
+        paginationClickable: true,
+        initialSlide: initialSlideIndex
     });
     
     //動態顯現效果
